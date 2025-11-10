@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -9,7 +9,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Zap } from "lucide-react";
+import { Zap, Twitter, Linkedin } from "lucide-react";
 
 export default function Home() {
   return (
@@ -257,12 +257,12 @@ export default function Home() {
           ]}
           socialLinks={[
             {
-              icon: "Twitter",
+              icon: Twitter,
               href: "https://twitter.com/chargepro",
               ariaLabel: "Twitter"
             },
             {
-              icon: "Linkedin",
+              icon: Linkedin,
               href: "https://linkedin.com/company/chargepro",
               ariaLabel: "LinkedIn"
             }
